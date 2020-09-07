@@ -11,13 +11,13 @@ Implementing the MiniGoogLeNet architecture using the Miniception
 * tensorflow
 
 ### CNN architectures implemented in this repository:
-**MiniGoogLeNet** architectue using the Miniception.
+*MiniGoogLeNet* architectue using the Miniception.
 
-* Miniception module is a smaller variant of the Inception module.
+* *Miniception* module is a smaller variant of the Inception module.
 
-* Inside the Inception module, we learn all three 5x5, 3x3, 1x1 filters (computing them in parallel)
+* Inside the *Inception* module, we learn all three 5x5, 3x3, 1x1 filters (computing them in parallel)
   concatenating the resulting feature maps along the channel dimension.
-  This process enables GoogLeNet to learn both local features via smaller convolutions and abstracted featrues with larger convolutions.
+  This process enables GoogLeNet to learn both local features via smaller convolutions and abstracted features with larger convolutions.
 
 ### CIFAR-10 Dataset:
 > Dataset consisting of 60,000 (32x32x3 RGB images) resulting in a feature vector dimensionality of 3072. It consists of 10 classes: _airplanes, automobiles, birds, cats, deer, dogs, frogs, horses, ships, and trucks_.
